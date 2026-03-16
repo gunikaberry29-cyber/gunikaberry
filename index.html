@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>For Lakshay ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PAGE 1 PROPOSAL -->
+<div class="page darkTheme" id="page1">
+
+<h1 class="title">Lakshay ❤️</h1>
+
+<p class="msg">
+Jeenu 🥺  
+I know kal thodi fight ho gayi thi...  
+But you mean the world to me ❤️  
+
+Will you go on a **movie date with me on 20 March? 🎬**
+</p>
+
+<button onclick="noDate()">No</button>
+<button onclick="yesDate()">Yes</button>
+
+<p id="response"></p>
+
+</div>
+
+
+<!-- PAGE 2 CAKE -->
+<div class="page hidden" id="cakePage">
+
+<h2>Let's Celebrate 🎂</h2>
+
+<img class="cakeImg"
+src="C:\Users\DELL\Desktop\rock ppr scissor\images-_1_.jpg">
+
+<button onclick="cutCake()">Cut Cake</button>
+
+<div id="fireworks"></div>
+
+<button onclick="openLetter()">Open Letter 💌</button>
+
+</div>
+
+
+<!-- PAGE 3 LETTER -->
+<div class="page hidden" id="letterPage">
+
+<div class="letter">
+
+<h2>For my Lakshay ❤️</h2>
+
+<p>
+Jeenu 🥺  
+I know kal mein thoda gussa ho gayi thi...  
+
+But you are my safe place ❤️  
+
+You make me smile every day  
+You calm me when I overreact  
+
+I love you more than anything !!
+
+So let's forget yesterday  
+and make new memories together 🎬🍕
+</p>
+
+<button onclick="moviePage()">Next</button>
+
+</div>
+
+</div>
+
+
+<!-- PAGE 4 MOVIE -->
+<div class="page hidden" id="moviePage">
+
+<h2>Movie Date 🎬</h2>
+
+<img class="dateImg"
+src="C:\Users\DELL\Desktop\rock ppr scissor\3d-view-couple-cinema-watching-movie.jpg">
+
+<p>First we watch a cute movie together 🍿</p>
+
+<button onclick="foodPage()">Next</button>
+
+</div>
+
+
+<!-- PAGE 5 FOOD -->
+<div class="page hidden" id="foodPage">
+
+<h2>Then Food Date 🍕</h2>
+
+<img class="dateImg"
+src="C:\Users\DELL\Desktop\rock ppr scissor\cute-melted-pizza-slice-cartoon-vector-52920157.jpg">
+
+<p>
+After movie we go eat pizza or rolls  
+and talk for hours ❤️
+</p>
+
+<button onclick="loveQuestion()">Next</button>
+
+</div>
+
+
+<!-- PAGE 6 LOVE QUESTION -->
+<div class="page hidden" id="lovePage">
+
+<h2>Do you love me? ❤️</h2>
+
+<button onclick="ghostPage()">No</button>
+<button onclick="finalPage()">Yes</button>
+
+</div>
+
+
+<!-- PAGE 7 CRYING GHOST -->
+<div class="page hidden ghostBg" id="ghostPage">
+
+<div class="ghost">
+👻
+<div class="tear tear1"></div>
+<div class="tear tear2"></div>
+</div>
+
+<p>The ghost is crying because you said no 😭</p>
+
+<button onclick="loveQuestion()">Try again</button>
+
+</div>
+
+
+<!-- PAGE 8 FINAL FIREWORKS -->
+<div class="page hidden finalBg" id="finalPage">
+
+<h1>Congratulations Lakshay ❤️</h1>
+
+<p>Our cute movie date is confirmed 🎬</p>
+
+<canvas id="finalFireworks"></canvas>
+
+</div>
+
+<script src="scipt.js"></script>
+
+</body>
+</html>
